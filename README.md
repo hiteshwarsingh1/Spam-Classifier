@@ -5,10 +5,10 @@
         <p>The data set can be downloaded from <code><a href="project05/data.zip">here</a></code>.</p>
 		<p>Features selected makes learning much easier, but it also throws out useful information. For example, exclamation mark (!) often occurs in spams. Even the format of email sender matters: in the case when an email address appears in the address book, a typical email client will replace it with the contact name, which means that the email is unlikely to be a spam (unless, of course, you are a friend of the spammer!). Sahami's paper talked about a few such features he had used in his classifier. 
         <br>
-        <code>Usage: python q2_classifier.py -f1 <train_dataset> -f2 <test_dataset> -o <output_file></code>
+        <code>Usage: python q2_classifier.py -f1 train_dataset -f2 test_dataset -o output_file</code>
         <br>
-        Where:
         train_dataset and test_dataset contain space delimited properties of an email
+        <br>
         output_file is a csv file containing the predicted labels for the test dataset</p>
         </p>
 		
